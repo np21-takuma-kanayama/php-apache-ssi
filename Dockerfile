@@ -1,4 +1,4 @@
-FROM php:apache
+FROM php:5.6-apache
 
 RUN { \
 echo 'LoadModule include_module /usr/lib/apache2/modules/mod_include.so'; \
